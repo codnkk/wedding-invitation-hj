@@ -82,6 +82,17 @@ export const Location = () => {
           </div>
         </div>
 
+        {/* 대절버스 안내 */}
+        <div className="location-info">
+          <div className="transportation-icon-wrapper">
+            <BusIcon className="transportation-icon" />
+          </div>
+          <div className="heading">대절버스 (여주↔예식장)</div>
+          <div />
+          <div className="content">
+            여주 시민회관 앞에서 12시 20분에 출발합니다.
+          </div>
+        </div>
       </LazyDiv>
     </>
   )

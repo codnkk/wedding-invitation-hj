@@ -47,7 +47,7 @@ export const Information2 = () => {
 
         <div className="break" />
 
-{/*        <Button
+        <Button
           style={{ width: "100%" }}
           onClick={() => {
             donationModalState[1](true)
@@ -55,7 +55,7 @@ export const Information2 = () => {
           }}
         >
           신랑측 계좌번호 보기
-        </Button>                           */}
+        </Button>
         <div className="break" />
         <Button
           style={{ width: "100%" }}
