@@ -33,14 +33,6 @@ function App() {
         </LazyDiv>
 
         <LazyDiv className="card-group">
-          {/* 결혼식 날짜 및 달력 섹션 */}
-          <Calendar />
-
-          {/* 사진 갤러리 섹션 */}
-          <Gallery />
-        </LazyDiv>
-
-        <LazyDiv className="card-group">
           {/* 오시는 길 및 지도 섹션 */}
           <Location />
         </LazyDiv>
