@@ -37,7 +37,7 @@ function App() {
           <Calendar />
 
           {/* 사진 갤러리 섹션 */}
-          <Gallery />
+          {/*<Gallery />*/}
         </LazyDiv>
 
         <LazyDiv className="card-group">
