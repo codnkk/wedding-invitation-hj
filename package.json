@@ -1,11 +1,11 @@
 {
-  "name": "wedding-invitation",
+  "name": "wedding-invitation-hj",
   "version": "0.1.0",
   "description": "A wedding invitation web page template",
   "author": "D.K.Choi <xxx@gmail.com> (https://codnkk.github.io/)",
   "license": "MIT",
   "private": true,
-  "homepage": "https://codnkk.github.io/wedding-invitation",
+  "homepage": "https://codnkk.github.io/wedding-invitation-hj",
   "type": "module",
   "scripts": {
     "dev": "vite",
