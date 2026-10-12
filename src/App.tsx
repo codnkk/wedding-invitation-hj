@@ -3,6 +3,8 @@ import { Location } from "./component/location"
 import "./App.scss"
 import { BGEffect } from "./component/bgEffect"
 import { Invitation } from "./component/invitation"
+import { Calendar } from "./component/calendar"
+import { Gallery } from "./component/gallery"
 import { Information } from "./component/information"
 import { Information_ac } from "./component/information"
 import { GuestBook } from "./component/guestbook"
@@ -28,6 +30,14 @@ function App() {
 
           {/* 모시는 글 섹션 */}
           <Invitation />
+        </LazyDiv>
+
+        <LazyDiv className="card-group">
+          {/* 결혼식 날짜 및 달력 섹션 */}
+          <Calendar />
+
+          {/* 사진 갤러리 섹션 */}
+          <Gallery />
         </LazyDiv>
 
         <LazyDiv className="card-group">
