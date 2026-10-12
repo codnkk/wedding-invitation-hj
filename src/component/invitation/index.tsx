@@ -66,13 +66,6 @@ export const Invitation = () => {
 
         <div className="break" />
 
-        <Button
-          onClick={() => {
-            contactModalState[1](true)
-          }}
-        >
-          연락하기
-        </Button>
       </LazyDiv>
 
       {/* 연락처 정보 모달 */}
